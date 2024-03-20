@@ -10,7 +10,12 @@ public class BoundaryLibererEtal {
 	}
 
 	public void libererEtal(String nomVendeur) {
-		//TODO a completer
+		boolean vendeurReconnu = ControlLibererEtal.isVendeur(nomVendeur);
+		ControlLibererEtal
+		
+		if(!vendeurReconnu) {
+			;
+		}
 	}
 
 }
